@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "@commitlint/config-conventional"
+  ],
+  "rules": {
+    "body-leading-blank": [
+      1,
+      "always"
+    ],
+    "scope-case": [
+      2,
+      "always",
+      "kebab-case"
+    ],
+    "header-max-length": [
+      2,
+      "always",
+      72
+    ],
+    "footer-leading-blank": [
+      1,
+      "always"
+    ],
+    "type-case": [
+      2,
+      "always",
+      "lower-case"
+    ],
+    "header-case": [
+      1,
+      "always",
+      "lower-case"
+    ]
+  }
+}
