@@ -1,3 +1,3 @@
-# AOC 2022
+# Neetcode 90
 
-Run: `yarn start ${dayNumber} ${puzzleNumber}`
+Here are my solves to Neetcode 90 problems
