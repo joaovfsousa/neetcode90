@@ -11,6 +11,8 @@ describe("Product of Array Except Self", () => {
       [0, 0, 9, 0, 0],
     ],
   ])("it should return the correct output", (nums, expectedResult) => {
-    expect(productExceptSelf(nums)).toMatchObject(expectedResult);
+    expect(productExceptSelf(nums).map((x) => (x === 0 ? 0 : x))).toMatchObject(
+      expectedResult
+    );
   });
 });
